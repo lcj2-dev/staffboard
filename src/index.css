@@ -1,6 +1,7 @@
 :root {
   /* spacing */
   --space-default: 1.1rem;
+  --space-small: 4px;
 
   /* colors */
   --color-dark: rgb(17, 24, 39);
@@ -24,6 +25,9 @@
   --color-danger: var(--color-red);
   --color-warning: var(--color-yellow);
   --color-info: var(--color-blue);
+
+  /* timing */
+  --time-default: 0.25s;
 
   /* other */
   --radius-default: 4px;

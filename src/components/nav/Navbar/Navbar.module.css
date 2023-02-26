@@ -1,0 +1,5 @@
+.navbar {
+  padding: var(--space-default);
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}

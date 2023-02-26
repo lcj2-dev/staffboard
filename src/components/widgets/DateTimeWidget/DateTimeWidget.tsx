@@ -21,7 +21,7 @@ export const DateTimeWidget = ({ hideTime, hideDate }: Props): JSX.Element => {
 
   return (
     <span>
-      {!hideDate && date.date} {!hideTime && date.time}
+      {!hideDate && date.date} - {!hideTime && date.time}
     </span>
   );
 };

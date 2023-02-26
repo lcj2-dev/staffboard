@@ -1,0 +1,18 @@
+.cardWrapper {
+  border: 1px solid var(--color-gray);
+  padding: var(--space-default);
+  border-radius: var(--radius-default);
+  transition: all var(--time-default);
+}
+
+.cardWrapper:hover {
+  border-color: var(--color-blue);
+  cursor: pointer;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
