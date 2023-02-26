@@ -1,6 +1,32 @@
 :root {
+  /* spacing */
   --space-default: 1.1rem;
-  --color-dark: rgb(45, 52, 54);
+
+  /* colors */
+  --color-dark: rgb(17, 24, 39);
+  --color-gray-dark: rgb(107, 114, 128);
+  --color-gray: rgb(209, 213, 219);
+  --color-gray-light: rgb(229, 231, 235);
+  --color-light: rgb(248, 250, 252);
+
+  --color-red: rgb(239, 68, 68);
+  --color-orange: rgb(249, 115, 22);
+  --color-yellow: rgb(245, 158, 11);
+  --color-lime: rgb(132, 204, 22);
+  --color-green: rgb(34, 197, 94);
+  --color-cyan: rgb(20, 184, 166);
+  --color-blue: rgb(14, 165, 233);
+  --color-violet: rgb(139, 92, 246);
+  --color-pink: rgb(217, 70, 239);
+  --color-rose: rgb(244, 63, 94);
+
+  --color-success: var(--color-green);
+  --color-danger: var(--color-red);
+  --color-warning: var(--color-yellow);
+  --color-info: var(--color-blue);
+
+  /* other */
+  --radius-default: 4px;
 }
 
 * {
@@ -11,4 +37,5 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--color-dark);
 }
