@@ -1,0 +1,14 @@
+:root {
+  --space-default: 1.1rem;
+  --color-dark: rgb(45, 52, 54);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

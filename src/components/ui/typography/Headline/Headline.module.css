@@ -1,0 +1,9 @@
+.headlineContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headlineText {
+  display: inline-block;
+}
