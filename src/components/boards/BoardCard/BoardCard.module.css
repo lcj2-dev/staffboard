@@ -6,7 +6,7 @@
 }
 
 .cardWrapper:hover {
-  border-color: var(--color-blue);
+  border-color: var(--color-dark);
   cursor: pointer;
 }
 
@@ -15,4 +15,5 @@
   justify-content: space-between;
   align-items: center;
   text-transform: capitalize;
+  margin-bottom: var(--space-small);
 }

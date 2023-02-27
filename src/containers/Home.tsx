@@ -1,27 +1,37 @@
 import { Fragment } from 'react';
 import {
-  ContentWrapper,
   Headline,
   BoardCard,
   CardGrid,
-  HomeNav
+  HomeNav,
+  SystemStatus,
+  HomeWrapper
 } from '../components';
+import { dummyBoards } from '../data/state';
 
 export const Home = (): JSX.Element => {
   return (
     <Fragment>
       <HomeNav />
-      <ContentWrapper>
-        <Headline text='Boards'>
-          <h3>asd</h3>
-        </Headline>
+      <HomeWrapper>
+        {/* boards section */}
+        <div>
+          <Headline text='Boards' />
 
-        <CardGrid>
-          {[...Array(7)].map((e, idx) => (
-            <BoardCard title='STOW' key={idx} />
-          ))}
-        </CardGrid>
-      </ContentWrapper>
+          <CardGrid>
+            {dummyBoards.map((b, idx) => (
+              <BoardCard board={b} key={idx} />
+            ))}
+          </CardGrid>
+        </div>
+
+        {/* system section */}
+        <div>
+          <Headline text='System status' />
+
+          <SystemStatus />
+        </div>
+      </HomeWrapper>
     </Fragment>
   );
 };

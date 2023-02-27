@@ -43,3 +43,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--color-dark);
 }
+
+body a {
+  text-decoration: none;
+  color: var(--color-dark);
+}

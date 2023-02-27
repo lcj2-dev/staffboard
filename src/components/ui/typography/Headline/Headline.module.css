@@ -1,7 +1,8 @@
 .headlineContainer {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
+  margin-bottom: var(--space-default);
 }
 
 .headlineText {
