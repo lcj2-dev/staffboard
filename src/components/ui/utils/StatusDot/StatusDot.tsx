@@ -1,7 +1,16 @@
+import { ServiceStatus } from '../../../../typescript/enums';
 import styles from './StatusDot.module.css';
 
-export const StatusDot = (): JSX.Element => {
-  return <div className={`${styles.statusDot}`}></div>;
-};
+interface Props {
+  status?: ServiceStatus;
+}
 
-// ${styles.successStatus}
+export const StatusDot = ({
+  status = ServiceStatus.defaultStatus
+}: Props): JSX.Element => {
+  return (
+    <div
+      className={`${styles.statusDot} ${styles[ServiceStatus[status]]}`}
+    ></div>
+  );
+};

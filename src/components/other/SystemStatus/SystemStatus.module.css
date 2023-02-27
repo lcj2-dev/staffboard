@@ -1,0 +1,15 @@
+.cardWrapper {
+  border: 1px solid var(--color-gray);
+  padding: var(--space-default);
+  border-radius: var(--radius-default);
+}
+
+.cardRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardRow:not(:first-child) {
+  margin-top: var(--space-small);
+}
