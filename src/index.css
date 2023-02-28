@@ -48,3 +48,9 @@ body a {
   text-decoration: none;
   color: var(--color-dark);
 }
+
+body > #root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

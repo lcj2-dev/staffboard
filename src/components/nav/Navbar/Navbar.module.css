@@ -4,4 +4,9 @@
   color: var(--color-light);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: var(--color-light);
 }

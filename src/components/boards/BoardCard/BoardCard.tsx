@@ -12,7 +12,7 @@ export const BoardCard = ({ board }: Props): JSX.Element => {
   const { name, isActive } = board;
 
   return (
-    <Link to='/board'>
+    <Link to={`/board/${name}`}>
       <div className={styles.cardWrapper}>
         <div className={styles.cardHeader}>
           <h3>{name}</h3>

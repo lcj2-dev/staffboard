@@ -1,0 +1,12 @@
+.boardWrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+.boardWrapper > div:first-child {
+  flex: 3;
+}
+
+.boardWrapper > div:last-child {
+  flex: 1;
+}
